@@ -17,15 +17,19 @@
 
 ---
 
-## How It Works
-
 ![Workflow](assets/workflow.png)
 
 ---
 
 ## Stack
 
-`Go` · `Kubernetes controller-runtime` · `Prometheus` · `Grafana` · `Kustomize` · `Helm` · `kind`
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Kustomize](https://img.shields.io/badge/Kustomize-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/kind-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ---
 
