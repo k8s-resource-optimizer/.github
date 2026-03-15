@@ -8,12 +8,17 @@
 
 ## What Makes This Different
 
-| Existing tools | This project |
-|---|---|
-| React to current metrics | **Forecast** future demand (Holt-Winters, trend decomposition) |
-| Optimize for one objective | **Pareto-optimal** recommendations — cost vs. performance vs. reliability |
-| No safety guarantees | **Circuit breakers, SLA monitoring, automatic rollback** built in |
-| Suggest or scale | **Generate GitOps PRs** — auditable, reviewable, automated |
+**↻ Predict, don't react**
+Most autoscalers respond to what's happening now. We model what's coming next — using Holt-Winters forecasting, trend decomposition, and learned workload patterns to size resources before demand spikes.
+
+**⚖ Optimize across trade-offs, not just one metric**
+Cost, performance, and reliability pull in different directions. We find the Pareto-optimal frontier — solutions where improving one objective doesn't silently hurt another.
+
+**🛡 Safety is not optional**
+Every recommendation passes through circuit breakers, SLA monitors, HPA conflict checks, and automatic rollback triggers. If something goes wrong, the system catches it before it reaches production.
+
+**📋 Recommendations you can review**
+We don't silently apply changes. We generate GitOps pull requests — auditable, version-controlled, and mergeable on your terms.
 
 ---
 
@@ -42,5 +47,4 @@
 
 ---
 
-**[Azra Karakaya](https://github.com/azrakarakaya1) · [Erva Şengül](https://github.com/ervasengul)**
-Istanbul Medipol University · Computer Engineering · 2024–2025
+**Developers** · [Azra Karakaya](https://github.com/azrakarakaya1) · [Erva Şengül](https://github.com/ervasengul)
