@@ -1,4 +1,4 @@
-# k8s-resource-optimizer
+# Intelligent Cluster Optimizer
 
 > **Most Kubernetes clusters waste 50–70% of their resources — or crash under load because they're under-provisioned.**
 > Existing autoscalers react to single metrics. They don't forecast, don't optimize across trade-offs, and don't protect against unsafe changes.
